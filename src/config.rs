@@ -71,7 +71,7 @@ lazy_static::lazy_static! {
     pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> =
  {
         let mut map = HashMap::new();
-        map.insert("password".to_string(), "dqtx760".to_string());
+        map.insert("password".to_string(), "742112".to_string());
         RwLock::new(map)
     }
 ;
